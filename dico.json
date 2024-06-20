@@ -1,0 +1,42 @@
+﻿{
+	"item" : [
+		{
+			"description" : "Capacité d'une cuve",
+			"tags" : ["D_ID"],
+			"system" : [
+				{
+					"base" : "SIG",
+					"table" : "EP_RESERV",
+					"label" : "RESERV_CAPA"
+				},
+				{
+					"base" : "SAP",
+					"table" : "TRUC_TRES_COMPLIQUE",
+					"label" : "NO_SE"
+				}
+			],
+			"unités" : "m³"
+		},
+		{
+			"description" : "Numéro de poste technique",
+			"tags" : ["D_ID"],
+			"system" : [
+				{
+					"base" : "SIG",
+					"table" : "BATIMENTS",
+					"label" : "NR_SAP"
+				},
+				{
+					"base" : "SIG",
+					"table" : "EP_BRANCHEMENT",
+					"label" : "NR_SAP"
+				},
+				{
+					"base" : "SAP",
+					"table" : "IFLOT",
+					"label" : "TPLNR"
+				}
+			]
+		}
+	]
+}
