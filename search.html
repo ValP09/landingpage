@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recherche Dictionnaire</title>
+    <style>
+        .search-row {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+			visibility: hidden;
+        }
+        .search-row select, .search-row input {
+            margin-right: 10px;
+        }
+		.search-row input {
+            width: 25%;
+        }
+        .search-row button {
+            visibility: hidden;
+        }
+		.search-button button {
+            visibility: hidden;
+        }
+		.profile table {
+            visibility: hidden;
+        }
+		.formSearch { 
+			width: 50%;
+			margin-left : 25%;
+		}
+    </style>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
+    <script>
+        function showButton(buttonId) {
+            document.getElementById(buttonId).style.visibility = 'visible';
+        };
+		$(function testFctSearch() {
+			var dico = [];
+			$.getJSON('https://raw.githubusercontent.com/ValP09/landingpage/main/dico.json', function(data) {
+				$.each(data.item, function(i, f) {
+					var tblRow = "<tr>" + "<td>" + f.description + "</td>" +
+					"<td>" + f.tags + "</td>" + "</tr>"
+					$(tblRow).appendTo("#userdata tbody");
+				});
+			});
+		});
+		function filterTableRows() {
+			searchString = document.getElementById('sText1').value;
+			console.log(searchString);
+			searchString = searchString.toLowerCase();
+			console.log(searchString);
+			searchItem1 = document.getElementById('sText1').value;
+            $('#userdata tbody tr').each(function() {
+                const firstColumnText = $(this).find('td:first').text().toLowerCase();
+                if (!firstColumnText.includes(searchString.toLowerCase())) {
+                    $(this).remove();
+                }
+            });
+			document.getElementById('userdata').style.visibility = 'visible';
+        };
+    </script>
+</head>
+<body>
+    <h1 style="text-align: center;">RECHERCHE DANS LE DICTIONNAIRE DE DONNÉES</h1>
+    <form class="formSearch">
+        <div class="search-row" id="sRow1" style="visibility: visible;">
+            <select name="searchType1">
+                <option value="desc">Description</option>
+                <option value="syst">Système</option>
+				<option value="tags">Tags</option>
+				<option value="labl">Libellés</option>
+				<option value="tabs">Tables</option>
+				<option value="basd">Bases de données</option>
+            </select>
+            <input type="text" id="sText1" oninput="showButton('button1'),showButton('buttonSearch')">
+            <button type="button" id="button1" onclick="showButton('sRow2')">+</button>
+        </div>
+        <div class="search-row" id="sRow2">
+            <select name="searchType2">
+                <option value="desc">Description</option>
+                <option value="syst">Système</option>
+				<option value="tags">Tags</option>
+				<option value="labl">Libellés</option>
+				<option value="tabs">Tables</option>
+				<option value="basd">Bases de données</option>
+            </select>
+            <input type="text" id="sText2" oninput="showButton('button2')">
+            <button type="button" id="button2" onclick="showButton('sRow3')">+</button>
+        </div>
+        <div class="search-row" id="sRow3">
+            <select name="searchType3">
+                <option value="desc">Description</option>
+                <option value="syst">Système</option>
+				<option value="tags">Tags</option>
+				<option value="labl">Libellés</option>
+				<option value="tabs">Tables</option>
+				<option value="basd">Bases de données</option>
+            </select>
+            <input type="text" id="sText3" oninput="showButton('button3')">
+            <button type="button" id="button3" onclick="showButton('sRow4')">+</button>
+        </div>
+        <div class="search-row" id="sRow4">
+            <select name="searchType4">
+                <option value="desc">Description</option>
+                <option value="syst">Système</option>
+				<option value="tags">Tags</option>
+				<option value="labl">Libellés</option>
+				<option value="tabs">Tables</option>
+				<option value="basd">Bases de données</option>
+            </select>
+            <input type="text" id="sText4" oninput="showButton('button4')">
+            <button type="button" id="button4" onclick="showButton('sRow5')">+</button>
+        </div>
+        <div class="search-row" id="sRow5">
+            <select name="searchType5">
+                <option value="desc">Description</option>
+                <option value="syst">Système</option>
+				<option value="tags">Tags</option>
+				<option value="labl">Libellés</option>
+				<option value="tabs">Tables</option>
+				<option value="basd">Bases de données</option>
+            </select>
+            <input type="text" id="sText5" oninput="showButton('button5')">
+        </div>
+    </form>
+	<div class="search-button" id="btSearch">
+		<button type="button" id="buttonSearch" onclick="filterTableRows()">Chercher</button>
+	</div>
+	<div class="profile">
+		<table id="userdata">
+			<thead>
+				<th>Description</th>
+				<th>Tags</th>
+			</thead>
+			<tbody>
+			</tbody>
+		</table>
+	</div>
+</body>
+</html>
