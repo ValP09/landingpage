@@ -25,11 +25,11 @@
 			background-color: #FFFFFF;
 		}
 		.status-img {
-            width: 50px; height: 50px;
-        }
+			width: 50px; height: 50px;
+	        }
 		.hidden {
-            display: none;
-        }
+			display: none;
+	        }
 		.tdTitle {
 			font-weight: bold; font-variant: small-caps;
 		}
@@ -40,8 +40,7 @@
 			transition: 0.4s; cursor: pointer; margin: 2px;
 		}
 		.button:hover {
-			background-color: #04AA6D; /* Green */
-			color: white;
+			background-color: #04AA6D; color: white;
 		}
 	</style>
   </head>
@@ -50,7 +49,7 @@
 	<h2 style="text-align:center;">Voici quelques objets qu'on désire vendre ou donner avant notre départ (surtout avant celui de Philippine).</h2> <h3 style="text-align:center;">Si jamais un élément vous semble intéressant (et qu'il n'est toujours pas pris), n'hésitez pas à nous contacter &#x1F60A;</h3>
 	<p>
 	<button class="button" style="vertical-align:middle" id="hideStatus1" onclick="toggleRows('1')">À vendre</button>
-    <button class="button" style="vertical-align:middle" id="hideStatus2" onclick="toggleRows('2')">À donner</button>
+	<button class="button" style="vertical-align:middle" id="hideStatus2" onclick="toggleRows('2')">À donner</button>
 	<button class="button" style="vertical-align:middle" id="hideStatus3" onclick="toggleRows('3')">Déjà partis</button>
 	<button class="button" style="vertical-align:middle" id="hideStatus3" onclick="toggleAllRows()">Tout</button>
 	</p>
@@ -87,56 +86,53 @@
 	<script>
 		function toggleAllRows() {
 			const statusCells = document.querySelectorAll('.status');
-            statusCells.forEach(cell => {
-                const row = cell.parentElement;
-                if (row.classList.contains('hidden')) {
-                    row.classList.remove('hidden');
-                }
-            });
+			statusCells.forEach(cell => {
+				const row = cell.parentElement;
+				if (row.classList.contains('hidden')) {
+					row.classList.remove('hidden');
+				}
+			});
 		}
 		function toggleRows(statToShow) {
-            const statusCells = document.querySelectorAll('.status');
-            statusCells.forEach(cell => {
-                const status = cell.title.trim();
-                const row = cell.parentElement;
-                if (status === statToShow) {
-                    row.classList.remove('hidden');
-                } else {
-                    row.classList.add('hidden');
-                }
-            });
-        }
-		// Function to set image based on status
-        function setImageBasedOnStatus() {
-            const statusCells = document.querySelectorAll('.status');
-            statusCells.forEach(cell => {
-                const status = cell.textContent.trim();
-                let imgSrc = '';
+			const statusCells = document.querySelectorAll('.status');
+			statusCells.forEach(cell => {
+				const status = cell.title.trim();
+				const row = cell.parentElement;
+				if (status === statToShow) {
+					row.classList.remove('hidden');
+				} else {
+					row.classList.add('hidden');
+				}
+			});
+		}
+		function setImageBasedOnStatus() {
+			const statusCells = document.querySelectorAll('.status');
+			statusCells.forEach(cell => {
+				const status = cell.textContent.trim();
+				let imgSrc = '';
 				let tooltipText = '';
-                switch (status) {
-                    case '1': // A vendre
-                        imgSrc = 'https://cdn-icons-png.flaticon.com/512/2663/2663706.png';
+				switch (status) {
+					case '1':
+						imgSrc = 'https://cdn-icons-png.flaticon.com/512/2663/2663706.png';
 						tooltipText = 'A vendre';
-                        break;
-                    case '2': // A donner
-                        imgSrc = 'https://cdn-icons-png.flaticon.com/512/837/837965.png';
-                        tooltipText = 'A donner';
 						break;
-                    case '3': // Parti
-                        imgSrc = 'https://cdn-icons-png.flaticon.com/512/11329/11329060.png';
+					case '2': 
+						imgSrc = 'https://cdn-icons-png.flaticon.com/512/837/837965.png';
+						tooltipText = 'A donner';
+						break;
+					case '3':
+						imgSrc = 'https://cdn-icons-png.flaticon.com/512/11329/11329060.png';
 						tooltipText = 'Y a plus';
-                        break;
-                    default:
-                        imgSrc = 'https://cdn-icons-png.flaticon.com/512/867/867072.png';
+						break;
+					default:
+						imgSrc = 'https://cdn-icons-png.flaticon.com/512/867/867072.png';
 						tooltipText = 'Je suis perdu';
-                }
-				cell.innerHTML = `<img src="${imgSrc}" class="status-img" alt="${status}" title=
-				"${tooltipText}">`;
+				}
+				cell.innerHTML = `<img src="${imgSrc}" class="status-img" alt="${status}" title="${tooltipText}">`;
 				cell.title = status;
-            });
-        }
-        // Call the function to set images after the page loads
-        window.onload = setImageBasedOnStatus;
+			});
+		}
+		window.onload = setImageBasedOnStatus;
 	</script>
   </body>
   <footer>
