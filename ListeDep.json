@@ -1,0 +1,24 @@
+﻿{
+	"item" : [
+		{
+			"description" : "Chaise noire N°11",
+			"statut" : 1,
+			"prix" : 2,
+			"urlPhoto1" : "https://medias.maisonsdumonde.com/images/ar_1:1,c_pad,f_auto,q_auto,w_354/v1/mkp/M21037164_1/chaise-en-bois-fonce-et-velours-vert-lot-de-2.jpg",
+			"urlPhoto2" : "https://m.media-amazon.com/images/I/61C6gOQMuDL.__AC_SX300_SY300_QL70_ML2_.jpg"
+		},
+		{
+			"description" : "Chaise noire N°12",
+			"statut" : 2,
+			"urlPhoto1" : "https://medias.maisonsdumonde.com/images/ar_1:1,c_pad,f_auto,q_auto,w_354/v1/mkp/M21037164_1/chaise-en-bois-fonce-et-velours-vert-lot-de-2.jpg",
+			"urlPhoto2" : "https://m.media-amazon.com/images/I/61C6gOQMuDL.__AC_SX300_SY300_QL70_ML2_.jpg"
+		},
+		{
+			"description" : "Chaise noire N°13",
+			"statut" : 3,
+			"prix" : 2,
+			"urlPhoto1" : "https://m.media-amazon.com/images/I/61C6gOQMuDL.__AC_SX300_SY300_QL70_ML2_.jpg",
+			"urlPhoto2" : "https://medias.maisonsdumonde.com/images/ar_1:1,c_pad,f_auto,q_auto,w_354/v1/mkp/M21037164_1/chaise-en-bois-fonce-et-velours-vert-lot-de-2.jpg"
+		}
+	]
+}
