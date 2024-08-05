@@ -5,6 +5,7 @@
 		<title>Donner/Vendre - Phil&Val</title>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>		
 		<style>
 			table, th, td {
 				border: 1px solid black; border-collapse: collapse; opacity:1;
@@ -50,36 +51,16 @@
 			<button class="button" style="vertical-align:middle" id="hideStatus3" onclick="toggleRows('3')">Déjà partis</button>
 			<button class="button" style="vertical-align:middle" id="hideStatus3" onclick="toggleAllRows()">Tout</button>
 		</p>
-		<a href="search.html">TEST</a>
-		<table style="width:100%">
-			<tr>
+		<table id="listedep" style="width:100%">
+			<thead>
 				<th>DÉSIGNATION</th>
 				<th>STATUT</th>
 				<th>PRIX</th>
 				<th>PHOTO N°1</th>
 				<th>PHOTO N°2</th>
-			</tr>
-			<tr>
-				<td class="tdTitle">Chaise noire n°1</td>
-				<td class="status">1</td>
-				<td>2€</td>
-				<td><img src="https://medias.maisonsdumonde.com/images/ar_1:1,c_pad,f_auto,q_auto,w_354/v1/mkp/M21037164_1/chaise-en-bois-fonce-et-velours-vert-lot-de-2.jpg"></img></td>
-				<td><img src="https://m.media-amazon.com/images/I/61C6gOQMuDL.__AC_SX300_SY300_QL70_ML2_.jpg"></img></td>
-			</tr>
-			<tr>
-				<td class="tdTitle">Chaise noire n°2</td>
-				<td class="status">2</td>
-				<td></td>
-				<td><img src="https://medias.maisonsdumonde.com/images/ar_1:1,c_pad,f_auto,q_auto,w_354/v1/mkp/M21037164_1/chaise-en-bois-fonce-et-velours-vert-lot-de-2.jpg"></img></td>
-				<td><img src="https://m.media-amazon.com/images/I/61C6gOQMuDL.__AC_SX300_SY300_QL70_ML2_.jpg"></img></td>
-			</tr>
-			<tr>
-				<td class="tdTitle">Chaise noire n°3</td>
-				<td class="status">3</td>
-				<td>2€</td>
-				<td><img src="https://medias.maisonsdumonde.com/images/ar_1:1,c_pad,f_auto,q_auto,w_354/v1/mkp/M21037164_1/chaise-en-bois-fonce-et-velours-vert-lot-de-2.jpg"></img></td>
-				<td><img src="https://m.media-amazon.com/images/I/61C6gOQMuDL.__AC_SX300_SY300_QL70_ML2_.jpg"></img></td>
-			</tr>
+			</thead>
+			<tbody>
+			</tbody>
 		</table>
 		<script>
 			function toggleAllRows() {
@@ -103,34 +84,30 @@
 					}
 				});
 			}
-			function setImageBasedOnStatus() {
-				const statusCells = document.querySelectorAll('.status');
-				statusCells.forEach(cell => {
-					const status = cell.textContent.trim();
-					let imgSrc = '';
-					let tooltipText = '';
-					switch (status) {
-						case '1':
-							imgSrc = 'https://cdn-icons-png.flaticon.com/512/2663/2663706.png';
-							tooltipText = 'A vendre';
-							break;
-						case '2': 
-							imgSrc = 'https://cdn-icons-png.flaticon.com/512/837/837965.png';
-							tooltipText = 'A donner';
-							break;
-						case '3':
-							imgSrc = 'https://cdn-icons-png.flaticon.com/512/11329/11329060.png';
-							tooltipText = 'Y a plus';
-							break;
-						default:
-							imgSrc = 'https://cdn-icons-png.flaticon.com/512/867/867072.png';
-							tooltipText = 'Je suis perdu';
-					}
-					cell.innerHTML = `<img src="${imgSrc}" class="status-img" alt="${status}" title="${tooltipText}">`;
-					cell.title = status;
+			function getItemsFromJSON() {
+				$.getJSON('https://raw.githubusercontent.com/ValP09/landingpage/main/ListeDep.json', function(data) {
+					$.each(data.item, function(i, f) {
+						var tblRow = "<tr>" + "<td class=\"tdTitle\">" + f.description + "</td>" + "<td class=\"status\""
+						switch (f.statut) {
+							case 1: 
+								tblRow = tblRow + " title=\"1\"><img src=\"https://cdn-icons-png.flaticon.com/512/2663/2663706.png\" class=\"status-img\" alt=\"1\" title=\"A vendre\">";
+								break;
+							case 2:
+								tblRow = tblRow + " title=\"2\"><img src=\"https://cdn-icons-png.flaticon.com/512/837/837965.png\" class=\"status-img\" alt=\"2\" title=\"A donner\">";
+								break;
+							case 3:
+								tblRow = tblRow + " title=\"3\"><img src=\"https://cdn-icons-png.flaticon.com/512/11329/11329060.png\" class=\"status-img\" alt=\"3\" title=\"Y a plus\">";
+								break;
+							default:
+								tblRow = tblRow + " title=\"0\"><img src=\"https://cdn-icons-png.flaticon.com/512/867/867072.png\" class=\"status-img\" alt=\"0\" title=\"Je suis perdu\">";
+						}
+						tblRow = tblRow + "</td>" + "<td>" + f.prix + " €</td>" + "<td><img src=" + f.urlPhoto1 + "></img></td>" + "<td><img src=" + f.urlPhoto2 + "></img></td>" + "</tr>"
+						tblRow = tblRow.replace("<td>0 €</td>","<td></td>");
+						$(tblRow).appendTo("#listedep tbody");
+					});
 				});
 			}
-			window.onload = setImageBasedOnStatus;
+			window.onload = getItemsFromJSON;
 		</script>
 	  </body>
 	  <footer>
