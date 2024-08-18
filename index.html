@@ -31,14 +31,16 @@
 			.tdTitle {
 				font-weight: bold; font-variant: small-caps;
 			}
-			.button {
+			button {
 				display: inline-block; border-radius: 4px; background-color: white;
-				border: 1px solid #04AA6D; color: #04AA6D; text-align: center;
-				font-size: 15px; padding: 10px; width: 100px;
+				text-align: center; font-size: 15px; padding: 10px; width: auto;
 				transition: 0.4s; cursor: pointer; margin: 2px;
 			}
-			.button:hover {
+			button:hover {
 				background-color: #04AA6D; color: white;
+			}
+			.buttonNorm {
+				border: 1px solid #04AA6D; color: #04AA6D;
 			}
 		</style>
 	</head>
@@ -46,10 +48,11 @@
 		<h1 style="text-align:center;">Liste d'objets à vendre/ à donner avant le départ</h1>
 		<h2 style="text-align:center;">Voici quelques objets qu'on désire vendre ou donner avant notre départ (surtout avant celui de Philippine).</h2> <h3 style="text-align:center;">Si jamais un élément vous semble intéressant (et qu'il n'est toujours pas pris), n'hésitez pas à nous contacter &#x1F60A;</h3>
 		<p>
-			<button class="button" style="vertical-align:middle" id="hideStatus1" onclick="toggleRows('1')">À vendre</button>
-			<button class="button" style="vertical-align:middle" id="hideStatus2" onclick="toggleRows('2')">À donner</button>
-			<button class="button" style="vertical-align:middle" id="hideStatus3" onclick="toggleRows('3')">Déjà partis</button>
-			<button class="button" style="vertical-align:middle" id="hideStatus3" onclick="toggleAllRows()">Tout</button>
+			<button class="buttonNorm" style="vertical-align:middle" id="hideStatus1" onclick="toggleRows('1')">À VENDRE</button>
+			<button class="buttonNorm" style="vertical-align:middle" id="hideStatus2" onclick="toggleRows('2')">À DONNER</button>
+			<button class="buttonNorm" style="vertical-align:middle" id="hideStatus3" onclick="toggleAllRows()">TOUT</button>
+			<input type="text" id="findField" placeholder="Recherche" size="20" />
+			<button class="buttonNorm" onclick="findNext ();">RECHERCHER</button>
 		</p>
 		<table id="listedep" style="width:100%">
 			<thead>
@@ -71,6 +74,8 @@
 						row.classList.remove('hidden');
 					}
 				});
+				const strToComp = document.getElementById("findField");
+				strToComp.value = "";
 			}
 			function toggleRows(statToShow) {
 				const statusCells = document.querySelectorAll('.status');
@@ -78,6 +83,19 @@
 					const status = cell.title.trim();
 					const row = cell.parentElement;
 					if (status === statToShow) {
+						row.classList.remove('hidden');
+					} else {
+						row.classList.add('hidden');
+					}
+				});
+			}
+			function findNext() {
+				const strToComp = document.getElementById("findField").value.toUpperCase();
+				const descCells = document.querySelectorAll('.tdTitle');
+				descCells.forEach(cell => {
+					const descToComp = cell.innerText.trim().toUpperCase();
+					const row = cell.parentElement;
+					if (descToComp.includes(strToComp)) {
 						row.classList.remove('hidden');
 					} else {
 						row.classList.add('hidden');
