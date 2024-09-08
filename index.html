@@ -119,7 +119,7 @@
 							default:
 								tblRow = tblRow + " title=\"0\"><img src=\"https://cdn-icons-png.flaticon.com/512/867/867072.png\" class=\"status-img\" alt=\"0\" title=\"Je suis perdu\">";
 						}
-						tblRow = tblRow + "</td>" + "<td>" + f.prix + " €</td>" + "<td><img src=" + f.urlPhoto1 + "></img></td>" + "<td><img src=" + f.urlPhoto2 + "></img></td>" + "</tr>"
+						tblRow = tblRow + "</td>" + "<td>" + f.prix + " €</td>" + "<td><a href=" + f.urlPhoto1.replace('&sz=w350','&sz=w500') + "><img src=" + f.urlPhoto1 + "></img></a></td>" + "<td><a href = " + f.urlPhoto2.replace('&sz=w350','&sz=w500') + "><img src=" + f.urlPhoto2 + "></img></a></td>" + "</tr>"
 						tblRow = tblRow.replace("<td>0 €</td>","<td></td>");
 						$(tblRow).appendTo("#listedep tbody");
 					});
