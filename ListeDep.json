@@ -281,13 +281,6 @@
 		"urlPhoto2" : "https://drive.google.com/thumbnail?id=1_R3elCEyJbuGqlURiqr5fCILPaz5E9pm&sz=w350"
 	},
 	{
-		"description" : "Matériel de plongée<br>(Qtté : 1)",
-		"statut" : 1,
-		"prix" : 40,
-		"urlPhoto1" : " ",
-		"urlPhoto2" : " "
-	},
-	{
 		"description" : "Caisse pour chat<br>(Qtté : 1)",
 		"statut" : 2,
 		"prix" : 0,
