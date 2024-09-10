@@ -17,7 +17,7 @@
 	{
 		"description" : "Casque vélo noir taille M [NutCase]<br>(Qtté : 1)",
 		"statut" : 1,
-		"prix" : 20,
+		"prix" : 10,
 		"urlPhoto1" : "https://drive.google.com/thumbnail?id=1PV66MqrIMjYquEtlP8LQiuFnKgdfokJU&sz=w350",
 		"urlPhoto2" : "https://drive.google.com/thumbnail?id=1qeh_4pP_Txv9yP0urx_tJdozQ-j7GJY_&sz=w350"
 	},
@@ -29,8 +29,8 @@
 		"urlPhoto2" : " "
 	},
 	{
-		"description" : "Chevalet<br>(Qtté : 1)",
-		"statut" : 1,
+		"description" : "Chevalet - VENDU<br>(Qtté : 1)",
+		"statut" : 3,
 		"prix" : 10,
 		"urlPhoto1" : "https://prod.isg.bruneau.media/asset/aHR0cHM6Ly9jb3JwLmJydW5lYXUubWVkaWEvcGFydG5lcnMvQWR2ZW8vQkUvOTEwNTA1NV9QLmpwZw==/?dpi=1.25&format=avif&height=477&quality=60&width=477",
 		"urlPhoto2" : " "
@@ -51,21 +51,21 @@
 	},
 	{
 		"description" : "Étagère (à fixer au mur) noire - VENDU<br>(Qtté : 1)",
-		"statut" : 1,
+		"statut" : 3,
 		"prix" : 10,
 		"urlPhoto1" : "https://drive.google.com/thumbnail?id=1G3Id2wGfSVy3qM5Kwj_GQfFmwtAutMP3&sz=w350",
 		"urlPhoto2" : "https://drive.google.com/thumbnail?id=1k7L5n33C8Vx7gk3PtHDe5LGJWWQFO0C5&sz=w350"
 	},
 	{
 		"description" : "Etagère échelle corde - VENDU<br>(Qtté : 1)",
-		"statut" : 1,
+		"statut" : 3,
 		"prix" : 10,
 		"urlPhoto1" : "https://drive.google.com/thumbnail?id=1-ndzs218bdKRrS-89jl2yEEzEB5BMsq9&sz=w350",
 		"urlPhoto2" : "https://drive.google.com/thumbnail?id=1PCK1oF8zLduXXTv2p4RiJUh1sXIPrfDV&sz=w350"
 	},
 	{
-		"description" : "Fontaine à eau pour chat<br>(Qtté : 1)",
-		"statut" : 1,
+		"description" : "Fontaine à eau pour chat - VENDU<br>(Qtté : 1)",
+		"statut" : 3,
 		"prix" : 5,
 		"urlPhoto1" : "https://drive.google.com/thumbnail?id=1XlvKKyQAIuI6yijOGHXYyBslDRwglw5I&sz=w350",
 		"urlPhoto2" : "https://drive.google.com/thumbnail?id=1F6rw017sGK25F0NP56t7fVOBhxwUnCRR&sz=w350"
@@ -106,8 +106,8 @@
 		"urlPhoto2" : "https://drive.google.com/thumbnail?id=1J5iztpz23d_sHehy0yih4SABXMoWFSy_&sz=w350"
 	},
 	{
-		"description" : "Sacoche de selle de vélo noire [Zéfal]<br>(Qtté : 1)",
-		"statut" : 1,
+		"description" : "Sacoche de selle de vélo noire [Zéfal] - VENDU<br>(Qtté : 1)",
+		"statut" : 3,
 		"prix" : 10,
 		"urlPhoto1" : "https://drive.google.com/thumbnail?id=1HEtildmp85wjnVh88Dq_Pp4gabu-xMLu&sz=w350",
 		"urlPhoto2" : "https://drive.google.com/thumbnail?id=1gWslFwQ7x49Y1BusNh-YPSAq-GAd5MsV&sz=w350"
@@ -120,8 +120,8 @@
 		"urlPhoto2" : "https://drive.google.com/thumbnail?id=1AVsvJGwT8gsUgSVODHv1GSApp5JdTVRe&sz=w350"
 	},
 	{
-		"description" : "Station PC blanche [IKEA]<br>(Qtté : 1)",
-		"statut" : 1,
+		"description" : "Station PC blanche [IKEA] - VENDU<br>(Qtté : 1)",
+		"statut" : 3,
 		"prix" : 5,
 		"urlPhoto1" : "https://drive.google.com/thumbnail?id=1JDZDf3Xh33E2Jev-1N6pXfGl3fWzOmEK&sz=w350",
 		"urlPhoto2" : "https://drive.google.com/thumbnail?id=1JCDvwfWSvDGoGGgqIs-L5AVD7GS9YMCr&sz=w350"
@@ -274,8 +274,8 @@
 		"urlPhoto2" : "https://drive.google.com/thumbnail?id=1tXgM-WVyCUNUECyWpIg6vq8wFTxD2mA1&sz=w350"
 	},
 	{
-		"description" : "Etagère métallique<br>(Qtté : 1)",
-		"statut" : 1,
+		"description" : "Etagère métallique - VENDU<br>(Qtté : 1)",
+		"statut" : 3,
 		"prix" : 5,
 		"urlPhoto1" : " ",
 		"urlPhoto2" : " "
@@ -288,8 +288,8 @@
 		"urlPhoto2" : "https://drive.google.com/thumbnail?id=1skYN2aUJNLgT5XJD0x10F4irUFUYaHv5&sz=w350"
 	},
 	{
-		"description" : "Table de nuit blanche à croisillons [IKEA]<br>(Qtté : 1)",
-		"statut" : 1,
+		"description" : "Table de nuit blanche à croisillons [IKEA] - VENDU<br>(Qtté : 1)",
+		"statut" : 3,
 		"prix" : 5,
 		"urlPhoto1" : "https://drive.google.com/thumbnail?id=1qQj2MKVjTgqtRwAhVrgR5BCDNcOQheFh&sz=w350",
 		"urlPhoto2" : "https://drive.google.com/thumbnail?id=1TPnLObMCOfE8Uj8gl9d9oMMwVbjfL8u8&sz=w350"
@@ -337,8 +337,8 @@
 		"urlPhoto2" : " "
 	},
 	{
-		"description" : "Blocs glaçon bleu et/ou rose<br>(Qtté : 2)",
-		"statut" : 2,
+		"description" : "Blocs glaçon bleu et/ou rose - VENDU<br>(Qtté : 2)",
+		"statut" : 3,
 		"prix" : 0,
 		"urlPhoto1" : "https://drive.google.com/thumbnail?id=1yAafewPnOWl9uexo8JtACnRxuPKTLrih&sz=w350",
 		"urlPhoto2" : " "
@@ -400,8 +400,8 @@
 		"urlPhoto2" : " "
 	},
 	{
-		"description" : "Cruche à eau en verre<br>(Qtté : 1)",
-		"statut" : 2,
+		"description" : "Cruche à eau en verre - VENDU<br>(Qtté : 1)",
+		"statut" : 3,
 		"prix" : 0,
 		"urlPhoto1" : "https://drive.google.com/thumbnail?id=1buZX769rDR-Zoed56OcH2xGNdXT5kLIZ&sz=w350",
 		"urlPhoto2" : " "
@@ -463,8 +463,8 @@
 		"urlPhoto2" : "https://drive.google.com/thumbnail?id=1k6hg2DuVrigBiNlBq89qYgy8UVqwS9bv&sz=w350"
 	},
 	{
-		"description" : "Fouet<br>(Qtté : 1)",
-		"statut" : 2,
+		"description" : "Fouet - VENDU<br>(Qtté : 1)",
+		"statut" : 3,
 		"prix" : 0,
 		"urlPhoto1" : " ",
 		"urlPhoto2" : " "
@@ -512,8 +512,8 @@
 		"urlPhoto2" : " "
 	},
 	{
-		"description" : "Machine à café Nespresso<br>(Qtté : 1)",
-		"statut" : 1,
+		"description" : "Machine à café Nespresso - VENDU<br>(Qtté : 1)",
+		"statut" : 3,
 		"prix" : 10,
 		"urlPhoto1" : "https://drive.google.com/thumbnail?id=1wNiLawikHCASQR--u9x1FFnuutNKWBCD&sz=w350",
 		"urlPhoto2" : "https://drive.google.com/thumbnail?id=1iKJiuf6sMo_OjNr_ERtbS-UiIqKa31M6&sz=w350"
@@ -715,8 +715,8 @@
 		"urlPhoto2" : " "
 	},
 	{
-		"description" : "Verre Hoeaggarden<br>(Qtté : 2)",
-		"statut" : 1,
+		"description" : "Verre Hoeaggarden - VENDU<br>(Qtté : 2)",
+		"statut" : 3,
 		"prix" : 1,
 		"urlPhoto1" : "https://drive.google.com/thumbnail?id=1RkTZmzCvfw1sOPl30RGzYGNKlESdnTjJ&sz=w350",
 		"urlPhoto2" : " "
@@ -750,8 +750,8 @@
 		"urlPhoto2" : " "
 	},
 	{
-		"description" : "Verres les mignons<br>(Qtté : 2)",
-		"statut" : 2,
+		"description" : "Verres les Minions - VENDU<br>(Qtté : 2)",
+		"statut" : 3,
 		"prix" : 0,
 		"urlPhoto1" : " ",
 		"urlPhoto2" : " "
@@ -813,15 +813,15 @@
 		"urlPhoto2" : " "
 	},
 	{
-		"description" : "Fleurs séchées<br>(Qtté : 1)",
-		"statut" : 2,
+		"description" : "Fleurs séchées - VENDU<br>(Qtté : 1)",
+		"statut" : 3,
 		"prix" : 0,
 		"urlPhoto1" : "https://drive.google.com/thumbnail?id=1mrOeX3UWUiN6RyvrKgf0cB8gS9LVr143&sz=w350",
 		"urlPhoto2" : "https://drive.google.com/thumbnail?id=1eSOnl1O4x_lhYAdbHeaKC5bF1xoz9mvP&sz=w350"
 	},
 	{
-		"description" : "Boite à bijoux IKEA<br>(Qtté : 1)",
-		"statut" : 1,
+		"description" : "Boite à bijoux IKEA - VENDU<br>(Qtté : 1)",
+		"statut" : 3,
 		"prix" : 10,
 		"urlPhoto1" : "https://drive.google.com/thumbnail?id=1Iu6qYtKXcWOIPS3OaMY9OyIP6-GBI7QR&sz=w350",
 		"urlPhoto2" : "https://drive.google.com/thumbnail?id=1Ixo3IfoJnDlLUBx7loZO4I2cmcKQ44f7&sz=w350"
@@ -842,14 +842,14 @@
 	},
 	{
 		"description" : "Lisseur (Babyliss) - VENDU<br>(Qtté : 1)",
-		"statut" : 1,
+		"statut" : 3,
 		"prix" : 5,
 		"urlPhoto1" : "https://drive.google.com/thumbnail?id=1MZvvVYeVjwgE-X4x7P6g5ng9jCE7UDJJ&sz=w350",
 		"urlPhoto2" : "https://drive.google.com/thumbnail?id=1YascE7fFmDy3SNBQg5NN7nqK12mBH4wJ&sz=w350"
 	},
 	{
 		"description" : "Mannes à linge - VENDU<br>(Qtté : 2)",
-		"statut" : 2,
+		"statut" : 3,
 		"prix" : 5,
 		"urlPhoto1" : "https://drive.google.com/thumbnail?id=1IslmbWamHeMN1Qw-TNttL_g8OCQAsReZ&sz=w350",
 		"urlPhoto2" : " "
@@ -886,7 +886,7 @@
 		"description" : "Bougeoir lapin (HEMA)<br>(Qtté : 1)",
 		"statut" : 1,
 		"prix" : 2,
-		"urlPhoto1" : "VAL?",
+		"urlPhoto1" : " ",
 		"urlPhoto2" : " "
 	},
 	{
@@ -918,15 +918,15 @@
 		"urlPhoto2" : "https://drive.google.com/thumbnail?id=1Ka1s_jb5ns0-SkulzfhZwOhSFs5QgS6c&sz=w350"
 	},
 	{
-		"description" : "Vase blé séché (HEMA)<br>(Qtté : 1)",
-		"statut" : 1,
+		"description" : "Vase blé séché (HEMA) - VENDU<br>(Qtté : 1)",
+		"statut" : 3,
 		"prix" : 5,
 		"urlPhoto1" : "https://drive.google.com/thumbnail?id=1C7Dh7A9O7BkAA7804nCzPd4HSERAd6yX&sz=w350",
 		"urlPhoto2" : "https://drive.google.com/thumbnail?id=1IOmQiePqSEzyUgWUihqPDALq2srz3YKy&sz=w350"
 	},
 	{
-		"description" : "Vase tête blanche (maison de Malou)<br>(Qtté : 1)",
-		"statut" : 1,
+		"description" : "Vase tête blanche (maison de Malou) - VENDU<br>(Qtté : 1)",
+		"statut" : 3,
 		"prix" : 10,
 		"urlPhoto1" : "https://drive.google.com/thumbnail?id=1IILGhuddeyXCx4cMoB6eKl9z7s80Cty4&sz=w350",
 		"urlPhoto2" : "https://drive.google.com/thumbnail?id=1IOGR8Mo59vS_l0cD8SMtD8bOkdUkz138&sz=w350"
@@ -953,8 +953,8 @@
 		"urlPhoto2" : " "
 	},
 	{
-		"description" : "Jardinière surélevée<br>(Qtté : 2)",
-		"statut" : 1,
+		"description" : "Jardinière surélevée - VENDU<br>(Qtté : 2)",
+		"statut" : 3,
 		"prix" : 5,
 		"urlPhoto1" : "https://drive.google.com/thumbnail?id=1H6cgFPsrw8SwNh9T9qI4T8tzLTqFZHm3&sz=w350",
 		"urlPhoto2" : "https://drive.google.com/thumbnail?id=1ZIgRgnbqwdO6XQ33_ki3yt-DdtUSR2pi&sz=w350"
