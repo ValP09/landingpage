@@ -32,8 +32,8 @@
 		"description" : "Chevalet - VENDU<br>(Qtté : 1)",
 		"statut" : 3,
 		"prix" : 10,
-		"urlPhoto1" : "https://prod.isg.bruneau.media/asset/aHR0cHM6Ly9jb3JwLmJydW5lYXUubWVkaWEvcGFydG5lcnMvQWR2ZW8vQkUvOTEwNTA1NV9QLmpwZw==/?dpi=1.25&format=avif&height=477&quality=60&width=477",
-		"urlPhoto2" : " "
+		"urlPhoto1" : "https://cdn-icons-png.flaticon.com/512/11329/11329060.png",
+		"urlPhoto2" : ""
 	},
 	{
 		"description" : "Clavier Microsoft<br>(Qtté : 1)",
@@ -53,22 +53,22 @@
 		"description" : "Étagère (à fixer au mur) noire - VENDU<br>(Qtté : 1)",
 		"statut" : 3,
 		"prix" : 10,
-		"urlPhoto1" : "https://drive.google.com/thumbnail?id=1G3Id2wGfSVy3qM5Kwj_GQfFmwtAutMP3&sz=w350",
-		"urlPhoto2" : "https://drive.google.com/thumbnail?id=1k7L5n33C8Vx7gk3PtHDe5LGJWWQFO0C5&sz=w350"
+		"urlPhoto1" : "https://cdn-icons-png.flaticon.com/512/11329/11329060.png",
+		"urlPhoto2" : ""
 	},
 	{
 		"description" : "Etagère échelle corde - VENDU<br>(Qtté : 1)",
 		"statut" : 3,
 		"prix" : 10,
-		"urlPhoto1" : "https://drive.google.com/thumbnail?id=1-ndzs218bdKRrS-89jl2yEEzEB5BMsq9&sz=w350",
-		"urlPhoto2" : "https://drive.google.com/thumbnail?id=1PCK1oF8zLduXXTv2p4RiJUh1sXIPrfDV&sz=w350"
+		"urlPhoto1" : "https://cdn-icons-png.flaticon.com/512/11329/11329060.png",
+		"urlPhoto2" : ""
 	},
 	{
 		"description" : "Fontaine à eau pour chat - VENDU<br>(Qtté : 1)",
 		"statut" : 3,
 		"prix" : 5,
-		"urlPhoto1" : "https://drive.google.com/thumbnail?id=1XlvKKyQAIuI6yijOGHXYyBslDRwglw5I&sz=w350",
-		"urlPhoto2" : "https://drive.google.com/thumbnail?id=1F6rw017sGK25F0NP56t7fVOBhxwUnCRR&sz=w350"
+		"urlPhoto1" : "https://cdn-icons-png.flaticon.com/512/11329/11329060.png",
+		"urlPhoto2" : ""
 	},
 	{
 		"description" : "Imprimante HP OfficeJet Pro 8022<br>(Qtté : 1)",
@@ -109,8 +109,8 @@
 		"description" : "Sacoche de selle de vélo noire [Zéfal] - VENDU<br>(Qtté : 1)",
 		"statut" : 3,
 		"prix" : 10,
-		"urlPhoto1" : "https://drive.google.com/thumbnail?id=1HEtildmp85wjnVh88Dq_Pp4gabu-xMLu&sz=w350",
-		"urlPhoto2" : "https://drive.google.com/thumbnail?id=1gWslFwQ7x49Y1BusNh-YPSAq-GAd5MsV&sz=w350"
+		"urlPhoto1" : "https://cdn-icons-png.flaticon.com/512/11329/11329060.png",
+		"urlPhoto2" : ""
 	},
 	{
 		"description" : "Sacoches bandouillère [CNB]<br>(Qtté : 1)",
@@ -123,8 +123,8 @@
 		"description" : "Station PC blanche [IKEA] - VENDU<br>(Qtté : 1)",
 		"statut" : 3,
 		"prix" : 5,
-		"urlPhoto1" : "https://drive.google.com/thumbnail?id=1JDZDf3Xh33E2Jev-1N6pXfGl3fWzOmEK&sz=w350",
-		"urlPhoto2" : "https://drive.google.com/thumbnail?id=1JCDvwfWSvDGoGGgqIs-L5AVD7GS9YMCr&sz=w350"
+		"urlPhoto1" : "https://cdn-icons-png.flaticon.com/512/11329/11329060.png",
+		"urlPhoto2" : ""
 	},
 	{
 		"description" : "Station PC plastique noire [IKEA]<br>(Qtté : 1)",
@@ -277,8 +277,8 @@
 		"description" : "Etagère métallique - VENDU<br>(Qtté : 1)",
 		"statut" : 3,
 		"prix" : 5,
-		"urlPhoto1" : " ",
-		"urlPhoto2" : " "
+		"urlPhoto1" : "https://cdn-icons-png.flaticon.com/512/11329/11329060.png",
+		"urlPhoto2" : ""
 	},
 	{
 		"description" : "Sac à dos beige&bleu fermeture scratch [Acrobat]<br>(Qtté : 1)",
@@ -291,8 +291,8 @@
 		"description" : "Table de nuit blanche à croisillons [IKEA] - VENDU<br>(Qtté : 1)",
 		"statut" : 3,
 		"prix" : 5,
-		"urlPhoto1" : "https://drive.google.com/thumbnail?id=1qQj2MKVjTgqtRwAhVrgR5BCDNcOQheFh&sz=w350",
-		"urlPhoto2" : "https://drive.google.com/thumbnail?id=1TPnLObMCOfE8Uj8gl9d9oMMwVbjfL8u8&sz=w350"
+		"urlPhoto1" : "https://cdn-icons-png.flaticon.com/512/11329/11329060.png",
+		"urlPhoto2" : ""
 	},
 	{
 		"description" : "Vide poches blanc à croisillons [IKEA]<br>(Qtté : 1)",
@@ -340,8 +340,8 @@
 		"description" : "Blocs glaçon bleu et/ou rose - VENDU<br>(Qtté : 2)",
 		"statut" : 3,
 		"prix" : 0,
-		"urlPhoto1" : "https://drive.google.com/thumbnail?id=1yAafewPnOWl9uexo8JtACnRxuPKTLrih&sz=w350",
-		"urlPhoto2" : " "
+		"urlPhoto1" : "https://cdn-icons-png.flaticon.com/512/11329/11329060.png",
+		"urlPhoto2" : ""
 	},
 	{
 		"description" : "Bocaux en verre clipsable<br>(Qtté : 13)",
@@ -403,8 +403,8 @@
 		"description" : "Cruche à eau en verre - VENDU<br>(Qtté : 1)",
 		"statut" : 3,
 		"prix" : 0,
-		"urlPhoto1" : "https://drive.google.com/thumbnail?id=1buZX769rDR-Zoed56OcH2xGNdXT5kLIZ&sz=w350",
-		"urlPhoto2" : " "
+		"urlPhoto1" : "https://cdn-icons-png.flaticon.com/512/11329/11329060.png",
+		"urlPhoto2" : ""
 	},
 	{
 		"description" : "Cuillères en bois [IKEA]<br>(Qtté : 2)",
@@ -466,8 +466,8 @@
 		"description" : "Fouet - VENDU<br>(Qtté : 1)",
 		"statut" : 3,
 		"prix" : 0,
-		"urlPhoto1" : " ",
-		"urlPhoto2" : " "
+		"urlPhoto1" : "https://cdn-icons-png.flaticon.com/512/11329/11329060.png",
+		"urlPhoto2" : ""
 	},
 	{
 		"description" : "Gourde Action Damien<br>(Qtté : 1)",
@@ -515,8 +515,8 @@
 		"description" : "Machine à café Nespresso - VENDU<br>(Qtté : 1)",
 		"statut" : 3,
 		"prix" : 10,
-		"urlPhoto1" : "https://drive.google.com/thumbnail?id=1wNiLawikHCASQR--u9x1FFnuutNKWBCD&sz=w350",
-		"urlPhoto2" : "https://drive.google.com/thumbnail?id=1iKJiuf6sMo_OjNr_ERtbS-UiIqKa31M6&sz=w350"
+		"urlPhoto1" : "https://cdn-icons-png.flaticon.com/512/11329/11329060.png",
+		"urlPhoto2" : ""
 	},
 	{
 		"description" : "Mini caquelon<br>(Qtté : 7)",
@@ -718,8 +718,8 @@
 		"description" : "Verre Hoeaggarden - VENDU<br>(Qtté : 2)",
 		"statut" : 3,
 		"prix" : 1,
-		"urlPhoto1" : "https://drive.google.com/thumbnail?id=1RkTZmzCvfw1sOPl30RGzYGNKlESdnTjJ&sz=w350",
-		"urlPhoto2" : " "
+		"urlPhoto1" : "https://cdn-icons-png.flaticon.com/512/11329/11329060.png",
+		"urlPhoto2" : ""
 	},
 	{
 		"description" : "Verre long drink évasé<br>(Qtté : 1)",
@@ -753,8 +753,8 @@
 		"description" : "Verres les Minions - VENDU<br>(Qtté : 2)",
 		"statut" : 3,
 		"prix" : 0,
-		"urlPhoto1" : " ",
-		"urlPhoto2" : " "
+		"urlPhoto1" : "https://cdn-icons-png.flaticon.com/512/11329/11329060.png",
+		"urlPhoto2" : ""
 	},
 	{
 		"description" : "Tupperwares<br>(Qtté : 1000)",
@@ -816,15 +816,15 @@
 		"description" : "Fleurs séchées - VENDU<br>(Qtté : 1)",
 		"statut" : 3,
 		"prix" : 0,
-		"urlPhoto1" : "https://drive.google.com/thumbnail?id=1mrOeX3UWUiN6RyvrKgf0cB8gS9LVr143&sz=w350",
-		"urlPhoto2" : "https://drive.google.com/thumbnail?id=1eSOnl1O4x_lhYAdbHeaKC5bF1xoz9mvP&sz=w350"
+		"urlPhoto1" : "https://cdn-icons-png.flaticon.com/512/11329/11329060.png",
+		"urlPhoto2" : ""
 	},
 	{
 		"description" : "Boite à bijoux IKEA - VENDU<br>(Qtté : 1)",
 		"statut" : 3,
 		"prix" : 10,
-		"urlPhoto1" : "https://drive.google.com/thumbnail?id=1Iu6qYtKXcWOIPS3OaMY9OyIP6-GBI7QR&sz=w350",
-		"urlPhoto2" : "https://drive.google.com/thumbnail?id=1Ixo3IfoJnDlLUBx7loZO4I2cmcKQ44f7&sz=w350"
+		"urlPhoto1" : "https://cdn-icons-png.flaticon.com/512/11329/11329060.png",
+		"urlPhoto2" : ""
 	},
 	{
 		"description" : "Boucleur (Babyliss)<br>(Qtté : 1)",
@@ -844,15 +844,15 @@
 		"description" : "Lisseur (Babyliss) - VENDU<br>(Qtté : 1)",
 		"statut" : 3,
 		"prix" : 5,
-		"urlPhoto1" : "https://drive.google.com/thumbnail?id=1MZvvVYeVjwgE-X4x7P6g5ng9jCE7UDJJ&sz=w350",
-		"urlPhoto2" : "https://drive.google.com/thumbnail?id=1YascE7fFmDy3SNBQg5NN7nqK12mBH4wJ&sz=w350"
+		"urlPhoto1" : "https://cdn-icons-png.flaticon.com/512/11329/11329060.png",
+		"urlPhoto2" : ""
 	},
 	{
 		"description" : "Mannes à linge - VENDU<br>(Qtté : 2)",
 		"statut" : 3,
 		"prix" : 5,
-		"urlPhoto1" : "https://drive.google.com/thumbnail?id=1IslmbWamHeMN1Qw-TNttL_g8OCQAsReZ&sz=w350",
-		"urlPhoto2" : " "
+		"urlPhoto1" : "https://cdn-icons-png.flaticon.com/512/11329/11329060.png",
+		"urlPhoto2" : ""
 	},
 	{
 		"description" : "Sèche-cheveux Babyliss<br>(Qtté : 1)",
@@ -921,15 +921,15 @@
 		"description" : "Vase blé séché (HEMA) - VENDU<br>(Qtté : 1)",
 		"statut" : 3,
 		"prix" : 5,
-		"urlPhoto1" : "https://drive.google.com/thumbnail?id=1C7Dh7A9O7BkAA7804nCzPd4HSERAd6yX&sz=w350",
-		"urlPhoto2" : "https://drive.google.com/thumbnail?id=1IOmQiePqSEzyUgWUihqPDALq2srz3YKy&sz=w350"
+		"urlPhoto1" : "https://cdn-icons-png.flaticon.com/512/11329/11329060.png",
+		"urlPhoto2" : ""
 	},
 	{
 		"description" : "Vase tête blanche (maison de Malou) - VENDU<br>(Qtté : 1)",
 		"statut" : 3,
 		"prix" : 10,
-		"urlPhoto1" : "https://drive.google.com/thumbnail?id=1IILGhuddeyXCx4cMoB6eKl9z7s80Cty4&sz=w350",
-		"urlPhoto2" : "https://drive.google.com/thumbnail?id=1IOGR8Mo59vS_l0cD8SMtD8bOkdUkz138&sz=w350"
+		"urlPhoto1" : "https://cdn-icons-png.flaticon.com/512/11329/11329060.png",
+		"urlPhoto2" : ""
 	},
 	{
 		"description" : "Chaise percée<br>(Qtté : 1)",
@@ -956,8 +956,8 @@
 		"description" : "Jardinière surélevée - VENDU<br>(Qtté : 2)",
 		"statut" : 3,
 		"prix" : 5,
-		"urlPhoto1" : "https://drive.google.com/thumbnail?id=1H6cgFPsrw8SwNh9T9qI4T8tzLTqFZHm3&sz=w350",
-		"urlPhoto2" : "https://drive.google.com/thumbnail?id=1ZIgRgnbqwdO6XQ33_ki3yt-DdtUSR2pi&sz=w350"
+		"urlPhoto1" : "https://cdn-icons-png.flaticon.com/512/11329/11329060.png",
+		"urlPhoto2" : ""
 	},
 	{
 		"description" : "Bougeoir verre turquoise<br>(Qtté : 1)",
