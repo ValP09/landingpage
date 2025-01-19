@@ -703,14 +703,14 @@
 	{
 		"description" : "Petite poubelle noire Brico (toilettes)<br>(Qtté : 1)",
 		"statut" : 1,
-		"prix" : 3,
+		"prix" : 2,
 		"urlPhoto1" : "https://drive.google.com/thumbnail?id=1IHBzxHfUus6ANVZAnfpl6h3TQB1upkRx&sz=w350",
 		"urlPhoto2" : "https://drive.google.com/thumbnail?id=1IHsbiw8pu-2hC7rT76iorqdF0-B76tW2&sz=w350"
 	},
 	{
 		"description" : "Pousse-mousse savon noir [Brico]<br>(Qtté : 1)",
-		"statut" : 2,
-		"prix" : 3,
+		"statut" : 1,
+		"prix" : 2,
 		"urlPhoto1" : "https://drive.google.com/thumbnail?id=1NQuV0K80G3He_B3NZ_ViPPRuvN53NxR9&sz=w350",
 		"urlPhoto2" : " "
 	}
